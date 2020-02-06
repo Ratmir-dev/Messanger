@@ -18,16 +18,11 @@ class MainActivity : AppCompatActivity() {
 
         var mainId: RelativeLayout = findViewById(R.id.main)
         //Пользователь еще не авторизован
-        if(FirebaseAuth.getInstance().currentUser == null){
-            startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build(), sinCode)
-        }
-        else {
-            Snackbar.make(mainId, "Вы авторизованы", Snackbar.LENGTH_LONG).show()
-        }
+
         displayallmessages()
     }
 
     private fun displayallmessages() {
-        
+
     }
 }
