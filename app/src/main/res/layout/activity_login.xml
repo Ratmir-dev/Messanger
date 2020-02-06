@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginTop="150dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+
+            android:textColor="#AD24142C"
+            android:text="ВХОД"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight ="0.13"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:gravity="center"
+                android:layout_weight ="0.76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:textSize="16dp"
+                android:id="@+id/tel"
+                android:hint="login"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight ="0.13"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight ="0.13"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:gravity="center"
+                android:layout_weight ="0.76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:textSize="16dp"
+                android:id="@+id/pas"
+                android:hint="password"
+                android:inputType="textPassword"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight ="0.13"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Войти"
+            android:gravity="center"
+            android:textSize="20sp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="#4671D5"
+            android:id="@+id/b_add"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Регистрация"
+            android:textSize="12sp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="#4671D5"
+            android:id="@+id/b_read"
+
+            />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
