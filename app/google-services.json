@@ -1,79 +1,34 @@
 {
   "project_info": {
-    "project_number": "1023531647573",
-    "firebase_url": "https://chat-2ce01.firebaseio.com",
-    "project_id": "chat-2ce01",
-    "storage_bucket": "chat-2ce01.appspot.com"
+    "project_number": "167638549812",
+    "firebase_url": "https://messanger-36d2c.firebaseio.com",
+    "project_id": "messanger-36d2c",
+    "storage_bucket": "messanger-36d2c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1023531647573:android:28d304d161f0e633b18adc",
-        "android_client_info": {
-          "package_name": "com.example.chat"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1023531647573-arv8fpqde8a78119ii7itd0ittjiabol.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.chat",
-            "certificate_hash": "1a60e96f40729b2258845beadacab0e4d01c7c44"
-          }
-        },
-        {
-          "client_id": "1023531647573-4q7cajai5g5in60frfevi6jn8f4sgfri.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD4kMz5P654le0ZvPPHMfhTM1GuhTzqc7Q"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1023531647573-4q7cajai5g5in60frfevi6jn8f4sgfri.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1023531647573:android:fd275cd1d5d6ec27b18adc",
+        "mobilesdk_app_id": "1:167638549812:android:b578d5e66f9de58e729161",
         "android_client_info": {
           "package_name": "com.example.messanger"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1023531647573-o6fiivdi66dhi7o7lj7hc1jmulv1vrlr.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.messanger",
-            "certificate_hash": "4cee0c34dcc707ba9eb8529bd1bb56a853035e4d"
-          }
-        },
-        {
-          "client_id": "1023531647573-4q7cajai5g5in60frfevi6jn8f4sgfri.apps.googleusercontent.com",
+          "client_id": "167638549812-dl7i35gf58ffb4bc8d92ij21f8offn10.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD4kMz5P654le0ZvPPHMfhTM1GuhTzqc7Q"
+          "current_key": "AIzaSyBPtZv490OckPmlhkAYoyOV75gp2w39mh0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1023531647573-4q7cajai5g5in60frfevi6jn8f4sgfri.apps.googleusercontent.com",
+              "client_id": "167638549812-dl7i35gf58ffb4bc8d92ij21f8offn10.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

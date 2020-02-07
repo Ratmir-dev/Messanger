@@ -1,7 +1,11 @@
 package com.example.messanger
 
-import java.util.*
-
-class Message(var userName: String, var textMessage: String){
-    var messageTime: Long = Date().time
+class Message(userName: String, textMessage: String) {
+    var userName:String? = null
+    var textMessage:String? = null
+    init {
+        this.userName = userName
+        this.textMessage = textMessage
+    }
+    class Message()
 }
